@@ -1,7 +1,7 @@
 # Brain_SLA_Net
 A Scale-Aware Attention Network for Advancing Stroke Lesion Segmentation in Brain MRI. This repository contains the implementation of the SLA-Net: Scale-aware Attention-Guided Network Architecture, as described in our paper. The model is designed for the implementation of semantic segmentation to automatically detect brain stroke lesions from MRI scans. The project focuses on enhancing lesion localization and boundary delineation using deep learning architectures such as SLA-Net and attention-enhanced hybrid models.
 
-Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLGA_Net
+Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLA_Net
 
 # Dataset Preparation
 Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data, including DWI, ADC, and FLAIR images. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
