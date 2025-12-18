@@ -14,7 +14,7 @@ Modalities used: DWI
 The Train_and_Test folder contains scripts for training, validation, and testing the proposed segmentation model.
 Purpose: Dataset loading and preprocessing, Model training and validation, and Performance evaluation on test data
 
-# Preprocessing Steps: 
+# Preprocessing Steps
 (1) Skull stripping (if required)
 (2) Intensity normalization (Z-score)
 (3) Slice extraction (axial)
