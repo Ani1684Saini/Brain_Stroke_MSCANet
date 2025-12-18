@@ -4,11 +4,11 @@ A Scale-Aware Attention Network for Advancing Stroke Lesion Segmentation in Brai
 Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLGA_Net
 
 # Dataset Preparation
-Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data, namely DWI, ADC and FLAIR images. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data, including DWI, ADC, and FLAIR images. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
+Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data, including DWI, ADC, and FLAIR images. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
 Dataset download link: The ISLES'22 train data can be downloaded from here:
 https://zenodo.org/record/7960856#.ZK5or-xBzmE
 
-Modalities used: DWI (only)
+Modalities used: DWI
 
 # Training and Evaluation Pipeline
 The Train_and_Test folder contains scripts for training, validation, and testing the proposed segmentation model.
@@ -36,3 +36,12 @@ The implementation begins with dataset loading and preprocessing, including resi
 All experiments were conducted using Python version 3.10.1 and TensorFlow version 2.10.1. The complete list of required Python packages and their corresponding versions is provided in the requirements.txt file to ensure a consistent software environment. Installing the dependencies listed in this file ensures compatibility with the implemented model, training pipeline, and evaluation procedures, thereby facilitating the accurate replication of the reported results.
 
 Install all required dependencies using: pip install -r requirements.txt
+
+# Citation
+@article{SainiAnitaSLANet,
+  title={Scale-Aware Attention Network for Precise Brain Stroke Lesion Segmentation in MRI},
+  author={Saini, Anita and  Jain, Puneet Kumar},
+  journal={Submitted to The Visual Computer},
+  year={2025}
+}
+
