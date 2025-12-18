@@ -4,7 +4,7 @@ A Scale-Aware Attention Network for Advancing Stroke Lesion Segmentation in Brai
 Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLA_Net
 
 # Dataset Preparation
-Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data, including DWI, ADC, and FLAIR images. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
+Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using MRI data. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
 Dataset download link: The ISLES'22 train data can be downloaded from here:
 https://zenodo.org/record/7960856#.ZK5or-xBzmE
 
