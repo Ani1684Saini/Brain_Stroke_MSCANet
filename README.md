@@ -10,26 +10,26 @@ https://zenodo.org/record/7960856#.ZK5or-xBzmE
 
 Modalities used: DWI (only)
 
-#Training and Evaluation Pipeline
+# Training and Evaluation Pipeline
 The folder Train_and_Test contains scripts for training, validation, and testing the proposed segmentation model.
 Purpose:
 Dataset loading and preprocessing
 Model training and validation
 Performance evaluation on test data
 
-#Preprocessing Steps: 
+# Preprocessing Steps: 
 1 Skull stripping (if required)
 2 Intensity normalization (Z-score)
 3 Slice extraction (axial)
 4 Resize to 128 × 128
 5 Subject-wise split (no data leakage)
 
-#Network Architecture
+# Network Architecture
 The model folder contains a script that defines the deep learning architecture used for brain lesion segmentation.
 Purpose: Implements the proposed SLGA-Net model
 Defines encoder, decoder, and attention blocks
 
-#Loss Functions and Metrics
+# Loss Functions and Metrics
 The loss folder contains a script for custom loss functions and evaluation metrics tailored for brain stroke lesion segmentation.
 
 Requirements: Python version 3.10.12, TensorFlow version 2.10.0 
