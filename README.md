@@ -38,5 +38,7 @@ All experiments were conducted using Python version 3.10.1 and TensorFlow versio
 Install all required dependencies using: pip install -r requirements.txt
 
 # Citation
-Saini Anita, et al. “Scale-Aware Attention Network for Precise Brain Stroke Lesion Segmentation in MRI,” submitted to The Visual Computer, 2025.
+Saini Anita, et al. “Learning Generalized Representations via Multi-Scale
+Context-Aware Attention Network for Improved Brain Stroke
+Lesion Segmentation,” submitted to the Computers and Electrical Engineering, 2026.
 
