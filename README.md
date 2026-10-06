@@ -1,7 +1,7 @@
 # Brain_MSCA_Net
 A multi-scale context-aware attention network for Advancing Stroke Lesion Segmentation in Brain MRI. This repository contains the implementation of the MSCA-Net:  Multi-Scale Context-aware Attention Network Architecture, as described in our paper. The model is designed for the implementation of semantic segmentation to automatically detect brain stroke lesions from MRI scans. The project focuses on enhancing lesion localization and boundary delineation using deep learning architectures such as MSCA-Net and attention-enhanced hybrid models.
 
-Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLA_Net
+Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_Stroke_MSCANet
 
 # Dataset Preparation
 Dataset: Ischemic Stroke Lesion Segmentation Challenge - ISLES'22 - This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using multimodal MRI data. This challenge task aims to benchmark infarct segmentation in acute and sub-acute stroke using MRI data. In this study, however, our experiments are conducted exclusively using diffusion-weighted imaging (DWI) MRI data. This multi-center dataset consists of 250 expert-annotated magnetic resonance imaging stroke cases. It is the training dataset for the Ischemic Stroke Lesion Segmentation Challenge (ISLES'22).
