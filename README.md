@@ -23,13 +23,13 @@ Purpose: Dataset loading and preprocessing, Model training and validation, and P
 
 # Network Architecture
 The model folder contains a script that defines the deep learning architecture used for brain lesion segmentation.
-Purpose: (1) Implements the proposed SLA-Net model, (2) Defines encoder, decoder, and attention blocks
+Purpose: (1) Implements the proposed MSCA-Net model, (2) Defines encoder, decoder, and attention blocks
 
 # Loss Functions and Metrics
-The loss folder contains a script for custom loss functions and evaluation metrics tailored for brain stroke lesion segmentation.
+The Model folder contains a script for custom loss functions and evaluation metrics tailored for brain stroke lesion segmentation.
 
 # Implementation Flow
-The complete implementation of the proposed SLA-Net model is provided in a Jupyter Notebook (.ipynb), which serves as a self-contained and executable record of the experiments. All preprocessing steps, model definitions, training parameters, and evaluation procedures are explicitly defined within the notebook cells, allowing users to follow the experimental workflow sequentially. This notebook-based structure enables transparent inspection of intermediate outputs, parameter settings, and results at each stage of execution.
+The complete implementation of the proposed MSCA-Net model is provided in a Jupyter Notebook (.ipynb), which serves as a self-contained and executable record of the experiments. All preprocessing steps, model definitions, training parameters, and evaluation procedures are explicitly defined within the notebook cells, allowing users to follow the experimental workflow sequentially. This notebook-based structure enables transparent inspection of intermediate outputs, parameter settings, and results at each stage of execution.
 The implementation begins with dataset loading and preprocessing, including resizing, normalization, and subject-wise splitting to prevent data leakage. The model architecture is then constructed using modular components defined in the model directory, while custom loss functions and evaluation metrics are imported from the loss directory. Training and validation are performed within the notebook using clearly defined hyperparameters, and the best-performing model is saved for subsequent evaluation. Final testing and inference are conducted on unseen data, with both quantitative metrics and qualitative segmentation results reported directly in the notebook.
 
 # Requirements
