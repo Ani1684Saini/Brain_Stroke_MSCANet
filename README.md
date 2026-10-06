@@ -1,5 +1,5 @@
-# Brain_SLA_Net
-A Scale-Aware Attention Network for Advancing Stroke Lesion Segmentation in Brain MRI. This repository contains the implementation of the SLA-Net: Scale-aware Attention-Guided Network Architecture, as described in our paper. The model is designed for the implementation of semantic segmentation to automatically detect brain stroke lesions from MRI scans. The project focuses on enhancing lesion localization and boundary delineation using deep learning architectures such as SLA-Net and attention-enhanced hybrid models.
+# Brain_MSCA_Net
+A multi-scale context-aware attention network for Advancing Stroke Lesion Segmentation in Brain MRI. This repository contains the implementation of the MSCA-Net:  Multi-Scale Context-aware Attention Network Architecture, as described in our paper. The model is designed for the implementation of semantic segmentation to automatically detect brain stroke lesions from MRI scans. The project focuses on enhancing lesion localization and boundary delineation using deep learning architectures such as MSCA-Net and attention-enhanced hybrid models.
 
 Instructions: Clone the repository: git clone https://github.com/Ani1684Saini/Brain_SLA_Net
 
